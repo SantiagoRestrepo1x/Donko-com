@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neón, el Guardián de la Luz. Descubre su historia y su legado.">
+    <meta name="keywords" content="Neón, héroe, luz, justicia, universo">
+    <meta name="author" content="SR Servens Sans">
+
+
+    <title>Neón, el Guardián</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Rockstar_Games_Logo.svg" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+<!-- Barra de Navegación -->
+<nav class="navbar navbar-expand-lg bg-info navbar-dark shadow-lg">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Neón</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="#presentacion">Presentación</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#poderes">Poderes</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#historia">Historia</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galería</a></li>
+                <li class="nav-item">
+                    <a class="nav-link text-white fw-bold" href="#" data-bs-toggle="modal" data-bs-target="#contactoModal">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Modal con fondo oscuro -->
+<div class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="contactoLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-secondary">
+                <h5 class="modal-title fw-bold" id="contactoLabel"> Información de Contacto</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p class="fs-4 fw-bold text-warning">Número de Representante:</p>
+                <p class="fs-3 fw-bold text-warning">+1 (504) 456-5734</p>
+            </div>
+            <div class="modal-footer border-secondary">
+                <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <!-- Sección de Presentación -->
+    <main class="container my-5">
+        <section id="presentacion" class="text-center py-5">
+            <h1 class="display-4 text-info">¡Conoce a Neón, el Guardián de la Luz!</h1>
+            <p class="lead">Neón no solo es un guardián, sino un faro de esperanza en una ciudad sumida en la oscuridad del crimen. Con su increíble habilidad de controlar y moldear la luz, puede crear barreras de energía que protegen a los inocentes, lanzar poderosos rayos de plasma para derrotar a los enemigos y camuflarse, desapareciendo en un destello de luminiscencia.
+
+
+
+
+                Desde las azoteas de los edificios, observa la ciudad, listo para actuar cuando las sombras intentan consumir lo que queda de justicia. Con cada destello de luz que emite, los villanos sienten el miedo y saben que, cuando Neón aparece, la oscuridad no tiene escapatoria.
+               
+                Su misión no es solo pelear; es iluminar el camino hacia un futuro mejor. Porque en Lúmina, cuando la noche cae y la ciudad se hunde en tinieblas, él es la luz que nunca se apaga.</p>
+    </div>
+    <div class="container text-center mt-4">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/kick-ass-1583873349.jpg?crop=1.00xw:0.887xh;0,0.0102xh&resize=2048:*"
+             class="img-fluid rounded shadow-lg"
+             style="max-width: 30%; height: auto;"
+             alt="Kick-Ass">
+    </div>
+   
+   
+
+
+
+
+            <!-- Sección de Poderes -->
+            <section id="poderes" class="my-5">
+                <h2 class="text-center text-primary">Poderes de Neón</h2>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Luz Protectora</h5>
+                                <p class="card-text">Genera barreras de energía luminosa para proteger a los inocentes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Rayos de Plasma</h5>
+                                <p class="card-text">Dispara haces de luz concentrada capaces de destruir amenazas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <div class="card-body">
+                                <h5 class="card-title">Camuflaje Lumínico</h5>
+                                <p class="card-text">Se vuelve invisible al ojo humano manipulando la luz a su
+                                    alrededor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <!-- Sección de Historia -->
+            <section id="historia" class="my-5">
+                <h2 class="text-center text-warning">Historia de Origen</h2>
+                <p class="text-center">En el corazón de la ciudad de Lúmina, donde la tecnología y la ciencia avanzaban a pasos agigantados, existía un laboratorio secreto dedicado a la investigación de energía lumínica. Dentro de sus instalaciones trabajaba Leonardo “Leo” Ferris, un joven científico apasionado por la física cuántica y el potencial de la luz como fuente ilimitada de energía.
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                    Una noche, en un experimento crucial que buscaba estabilizar una fuente de luz pura capaz de alimentar toda la ciudad sin contaminación, ocurrió lo inesperado: un sabotaje. Un grupo de mercenarios enviados por una corporación rival infiltró el laboratorio para destruir los avances del equipo de científicos. En el caos, un reactor experimental sobrecargado estalló, liberando una ola de energía lumínica que envolvió por completo a Leo.
+                   
+                    Nadie esperaba que sobreviviera, pero contra toda lógica, despertó días después, su cuerpo había cambiado. Sus ojos brillaban con un resplandor sobrenatural, su piel parecía absorber la luz, y podía sentir el flujo de energía alrededor de él. Al intentar moverse, notó que su cuerpo podía proyectar destellos de luz que se transformaban en barreras de energía o incluso en poderosos ataques.
+                   
+                    Al comprender la magnitud de su nueva condición, Leo supo que su vida nunca volvería a ser la misma. Se convirtió en Neón, el Guardián de la Luz, decidido a proteger a Lúmina de aquellos que buscan usar la ciencia para el mal. Con su traje especial, diseñado para canalizar y controlar su poder, patrulla la ciudad desde las alturas, iluminando las sombras y enfrentando a las fuerzas corruptas que amenazan a los inocentes.
+                   
+                    Pero Neón aún busca respuestas: ¿quién estaba detrás del sabotaje?, ¿cómo funciona exactamente su poder?, y lo más importante… ¿hay otros como él en algún lugar del mundo?.</p>
+            </section>
+    </main>
+
+
+
+
+    <section id="galeria" class="container my-5">
+        <h2 class="text-center text-info">Galería de Neón</h2>
+
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://filmschoolrejects.com/wp-content/uploads/2019/04/kick-ass-shots-840x457.jpg" class="img-fluid rounded shadow-lg" alt="Neón en acción 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://media.npr.org/assets/artslife/movies/2010/04/kick-ass/aaron-johnson_wide-e5d80a2ca4a7230f4ee21f66cc429ced9991d6c2.jpg?s=800&c=85&f=webp" class="img-fluid rounded shadow-lg" alt="Neón en acción 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://wallpapercave.com/wp/wp10621383.jpg" class="img-fluid rounded shadow-lg" alt="Neón en acción 3">
+            </div>
+        </div>
+    </section>
+    <section id="exclusiva" class="container my-5">
+        <h2 class="text-center text-info"></h2>La Fortaleza de Neón </h2>
+        <p class="text-center lead">Un héroe que ilumina la oscuridad con su poder absoluto.</p>
+   
+        <div class="row align-items-center text-center">
+            <!-- Primera columna -->
+            <section class="container mt-5">
+                <div class="row justify-content-center">
+                    <!-- Poder Absoluto -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-4 bg-dark text-white rounded shadow-lg border border-info power-card">
+                            <h3>Poder Absoluto</h3>
+                            <p>Neón puede moldear la luz con una precisión inigualable.</p>
+                            <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#poderAbsoluto">Más Información</button>
+                           
+                            <!-- Texto oculto que aparece al dar clic -->
+                            <div class="collapse mt-3" id="poderAbsoluto">
+                                <p>Capacidad máxima de energía lumínica: capaz de atravesar cualquier barrera<br>
+                                Creación de estructuras de luz sólida: para defensa y ataque.<br>
+                                Control absoluto de la iluminación: cegando enemigos.</p>
+                            </div>
+                        </div>
+                    </div>
+           
+                    <!-- Imagen central -->
+                    <div class="col-lg-4 col-md-12">
+                        <img src="https://images6.alphacoders.com/133/thumb-1920-1338741.jpg" class="img-fluid rounded shadow-lg border border-warning" alt="Neón en acción">
+                    </div>
+           
+                    <!-- Velocidad Imparable -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="p-4 bg-dark text-white rounded shadow-lg border border-info power-card">
+                            <h3>Velocidad Imparable</h3>
+                            <p>Se mueve a la velocidad de la luz, dejando solo un destello.</p>
+                            <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#velocidadImparable">Descubre más</button>
+                           
+                            <!-- Texto oculto que aparece al dar clic -->
+                            <div class="collapse mt-3" id="velocidadImparable">
+                                <p>Desplazamiento instantáneo: entre espacios sin dejar rastro.<br>
+                                Impacto cinético devastador: al moverse en línea recta.<br>
+                                Evasión total de ataques al cambiar de dirección en fracciones de segundo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+            <!-- Efectos de hover -->
+            <style>
+                .power-card:hover .collapse {
+                    display: block !important;
+                }
+            </style>
+           
+   
+<!-- Footer Mejorado -->
+<footer class="text-white text-center py-5" style="background: linear-gradient(to right, #1e1e1e, #3a3a3a);">
+    <div class="container">
+        <div class="row gy-4">
+            <!-- Sección Sobre Neón -->
+            <div class="col-md-4">
+                <h5 class="fw-bold">Sobre Neón</h5>
+                <p>El Guardián de la Luz, defensor de la justicia.</p>
+            </div>
+
+
+            <!-- Sección Enlaces -->
+            <div class="col-md-4">
+                <h5 class="fw-bold">Enlaces</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none fw-bold footer-link">Inicio</a></li>
+                    <li><a href="#" class="text-white text-decoration-none fw-bold footer-link">Historia</a></li>
+                    <li><a href="#" class="text-white text-decoration-none fw-bold footer-link">Contacto</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Sección Redes Sociales -->
+            <div class="col-md-4">
+                <h5 class="fw-bold">Síguenos</h5>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle shadow-lg">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle shadow-lg">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle shadow-lg">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="border-secondary my-4">
+        <p class="mb-0">&copy; 2025 Creado por <strong>SR Servens Sans</strong></p>
+    </div>
+</footer>
+
+
+<!-- Estilos extra -->
+<style>
+    .footer-link:hover {
+        color: #ffcc00;
+        transition: 0.3s;
+    }
+</style>
+
+
+<!-- FontAwesome para íconos -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+
+
+</html>
